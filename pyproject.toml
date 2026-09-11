@@ -8,6 +8,7 @@ dependencies = [
     "datasets>=5.0.1",
     "empath>=0.89",
     "gensim>=4.4.0",
+    "ipywidgets>=8.1.7",
     "jupyterlab>=4",
     "matplotlib>=3.11.1",
     "nltk>=3.10.3",
