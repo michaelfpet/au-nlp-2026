@@ -21,4 +21,5 @@ dependencies = [
     "tqdm>=4.67.0",
     "torchvision>=0.28.0",
     "vadersentiment>=3.3.2",
+    "transformers>=5.17.0",
 ]
