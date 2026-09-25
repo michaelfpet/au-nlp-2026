@@ -22,4 +22,7 @@ dependencies = [
     "torchvision>=0.28.0",
     "vadersentiment>=3.3.2",
     "transformers>=5.17.0",
+    "sentencepiece>=0.2.2",
+    "sacrebleu>=2.6.0",
+    "accelerate>=1.15.0",
 ]

@@ -5,6 +5,8 @@ This tutorial is about classifying text with recurrent networks. You load the **
 ## Notebooks
 - `0. RNNs.ipynb` — the exercise notebook. Work through it in order and fill in every `# TODO`.
 - `0. RNNs - Solution.ipynb` — the worked solutions. Try to finish a part before looking at them.
+- `1. LSTM vs GRU.ipynb` — the follow-up notebook. In the main notebook the LSTM and the GRU end in a tie; here you compare them on a small synthetic memory task, find out why one of them fails, and fix it with one line of initialisation. No downloads, and it runs in a minute or two on a CPU.
+- `1. LSTM vs GRU - Solution.ipynb` — the worked solutions for the follow-up notebook.
 
 ## What you will practice
 1. **Exploring the data** — the size of AG News, the average article length and the label distribution, and why macro-F1 rather than accuracy
@@ -13,6 +15,8 @@ This tutorial is about classifying text with recurrent networks. You load the **
 4. **Training and evaluation** — per-class and macro-F1, the evaluation loop, and the training loop with Adam and gradient clipping
 5. **LSTM and GRU** — implementing both, comparing parameter counts, and plotting all three models against each other
 6. **MCQs** — on the forget gate, GRU vs. LSTM, vanishing gradients in BPTT, truncated BPTT, long dependencies and the final hidden state
+
+In the follow-up notebook: **LSTM vs. GRU** — how far back each model can remember, what the forget gate looks like at initialisation and why that matters, the forget-bias trick, and why a parameter count tells you little about speed.
 
 Most implementation tasks are followed by a **✅ Check** cell that verifies your code automatically, so you can confirm each part before moving on.
 
