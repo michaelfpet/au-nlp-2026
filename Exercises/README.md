@@ -83,3 +83,15 @@
     - [TRL Documentation](https://huggingface.co/docs/trl/index)
     - [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
 
+## Lab session 8
+- [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate)
+    - [Generation strategies, Hugging Face Transformers](https://huggingface.co/docs/transformers/generation_strategies)
+    - [Language Modeling: generation strategies, NLP Course|For you](https://lena-voita.github.io/nlp_course/language_modeling.html#generation_strategies)
+    - [Dive into Deep Learning: Beam Search](https://www.d2l.ai/chapter_recurrent-modern/beam-search.html)
+- [The Curious Case of Neural Text Degeneration (nucleus sampling)](https://arxiv.org/abs/1904.09751)
+    - [Hierarchical Neural Story Generation (top-k sampling)](https://arxiv.org/abs/1805.04833)
+    - [Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs](https://arxiv.org/abs/2407.01082)
+    - [CTRL: A Conditional Transformer Language Model for Controllable Generation (repetition penalty)](https://arxiv.org/abs/1909.05858)
+- [KV Caching Explained: Optimizing Transformer Inference Efficiency](https://huggingface.co/blog/not-lain/kv-caching)
+    - [Structured outputs and constrained decoding with Outlines](https://dottxt-ai.github.io/outlines/)
+
